@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from "react";
+import { members } from "./Members";
 
-const Header = () => {
+const Header = ({ selectTeam, count }) => {
   return (
-    <div><button className='btn btn-primary'>Submit </button></div>
-  )
-}
+    <div>
+      <h2>
+        Total number of members in {selectTeam} : {count}
+      </h2>
+    </div>
+  );
+};
 
-export default Header
+export default Header;

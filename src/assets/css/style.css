@@ -21,3 +21,6 @@ body{
    grid-template-columns: 1fr 1fr 1fr; 
    
   }
+  .standout{
+    box-shadow: gray;
+  }
